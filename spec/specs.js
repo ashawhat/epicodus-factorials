@@ -3,7 +3,7 @@ describe('factorialFinder', function() {
     factorialFinder(5).should.equal(120);
   });
   it('returns false for numbers that are less that 0', function() {
-    factorialFinder(-3).should.equal(false);
+    factorialFinder(-3).should.equal("Are you Kidding me?!");
   });
   it('returns 1 for factorial 0', function() {
     factorialFinder(0).should.equal(1);
